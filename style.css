@@ -1,3 +1,16 @@
+*{
+    margin-left: 2px;
+    padding: 0;
+}
+
+
+.conteiner{
+    max-width: 1000px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
 body {
     font-family: sans-serif;
 }
@@ -11,6 +24,7 @@ body {
 h1{
     font-size: 64px;
     color: #1F3F68;
+    width: 510px;
 }
 
 .title_in_contact{
@@ -53,3 +67,80 @@ div{
     border: 1px;
     border-color: black;
 }
+
+.content{
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+
+.block{
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.block-1{
+    z-index: 1;
+    background-color: blueviolet;
+}
+
+.block-2{
+    display: none;
+    background-color: blue;
+}
+
+.content:hover .block-2{
+    z-index: 1;
+    display: block;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text_1{
+    width: 425px;
+    margin-bottom: 20px;
+}
+
+.block_after_main{
+    height: 359px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_part_1{
+    width: 495px;
+}
+
+.footer_part_1 h3{
+    width: 340px;
+}
+
+.footer_part_1 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dubble_block{
+    display: flex;
+    justify-content: space-around
+}
+
+.cart{
+    width: 100%;
+}
+
+
