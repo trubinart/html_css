@@ -1,17 +1,17 @@
-*{
-    margin-left: 2px;
-    padding: 0;
-}
-
-
-.conteiner{
-    width: 1000px;
-    margin: 0 auto;
-}
-
 
 body {
     font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  height: 300px;
 }
 
 .text {
