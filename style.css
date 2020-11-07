@@ -5,9 +5,8 @@
 
 
 .conteiner{
-    max-width: 1000px;
-    display: table-cell;
-    vertical-align: middle;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 
