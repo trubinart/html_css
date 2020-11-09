@@ -1,43 +1,42 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: Roboto;
 }
 
 .conteiner {
-   max-width: 1140px;
-   margin: auto;
+    max-width: 1140px;
+    margin: auto;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     padding-top: 34;
 }
 
-.top_block{
-    height: 768px;
+.top_block {
+    height: 100%;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
-.main_block{
+.main_block {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-ul li{
+ul li {
     align-self: center;
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.top_inform{
+.top_inform {
     margin-top: 115px;
     flex-grow: 1;
     background-image: url(img/illustration.png);
@@ -46,7 +45,7 @@ ul li{
     background-position-y: inherit;
 }
 
-h1{
+h1 {
     width: 504px;
     font-style: normal;
     font-weight: 300;
@@ -56,7 +55,7 @@ h1{
     color: #1F3F68;
 }
 
-.text_in_top{
+.text_in_top {
     width: 425px;
     font-size: 16px;
     line-height: 26px;
@@ -66,7 +65,7 @@ h1{
     padding-top: 32px;
 }
 
-.top_botton{
+.top_botton {
     font-size: 16px;
     line-height: 26px;
     text-align: center;
@@ -79,20 +78,21 @@ h1{
     padding: 15px 50px;
     display: inline-block;
     margin-top: 71px;
+    margin-bottom: 190px;
 }
 
-.what_we_do{
+.what_we_do {
     margin-top: 64px;
 }
 
-.box_with_card{
+.box_with_card {
     margin-top: 64px;
     margin-bottom: 64px;
     display: flex;
-    justify-content: space-around;}
+    justify-content: space-around;
+}
 
-
-h3{
+h3 {
     align-self: center;
     font-weight: 300;
     font-size: 36px;
@@ -102,7 +102,7 @@ h3{
     color: #000000;
 }
 
-.card{
+.card {
     width: 359px;
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
@@ -111,7 +111,7 @@ h3{
     flex-direction: column;
 }
 
-h4{
+h4 {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -122,7 +122,7 @@ h4{
     margin-right: 32px;
 }
 
-.text_card{
+.text_card {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -131,7 +131,7 @@ h4{
     margin: 14px 32px;
 }
 
-.link_in_card{
+.link_in_card {
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -140,13 +140,13 @@ h4{
     text-decoration: none;
 }
 
-.card_img{
+.card_img {
     margin-top: 44px;
     margin-bottom: 52px;
     align-self: center
 }
 
-.text_in_project{
+.text_in_project {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -157,12 +157,12 @@ h4{
     width: 75%;
 }
 
-.block_image_1{
+.block_image_1 {
     position: relative;
     margin-bottom: 32px;
 }
 
-.text_block_image_1{
+.text_block_image_1 {
     position: absolute;
     font-size: 32px;
     line-height: 46px;
@@ -173,25 +173,25 @@ h4{
     right: 64px;
 }
 
-.project_img{
+.project_img {
     width: 100%;
 }
 
-.block_image_2{
+.block_image_2 {
     display: flex;
     justify-content: space-between;
 }
 
-.block_image_child{
+.block_image_child {
     flex-grow: 1;
     position: relative;
 }
 
-.img_gap{
+.img_gap {
     margin-right: 32px;
 }
 
-.text_block_image_child{
+.text_block_image_child {
     position: absolute;
     top: 32px;
     left: 32px;
@@ -201,23 +201,23 @@ h4{
     color: #FFFFFF;
 }
 
-.prodject{
+.prodject {
     margin-bottom: 112px;
 }
 
-.back_footer{
+.back_footer {
     background: #316099;
 }
 
-.before_footer{
+.before_footer {
     display: flex;
 }
 
-.info_before_footer{
+.info_before_footer {
     flex-grow: 2;
 }
 
-.h3_before_footer{
+.h3_before_footer {
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.05em;
@@ -225,11 +225,10 @@ h4{
     margin-top: 91px;
     margin-left: 113px;
     width: 340.96px;
-    text-align:left;
-
+    text-align: left;
 }
 
-.text_before_footer{
+.text_before_footer {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -239,15 +238,15 @@ h4{
     margin-left: 113px;
     margin-top: 32px;
     margin-bottom: 96px;
-    text-align:left;
+    text-align: left;
 }
 
-.link_bottom{
+.link_bottom {
     flex-grow: 1;
     align-self: center;
 }
 
-.link_before_footer{
+.link_before_footer {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -259,11 +258,11 @@ h4{
     padding: 15px 80px;
 }
 
-hr{
+hr {
     color: #FFFFFF;
 }
 
-.footer_list{
+.footer_list {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -272,39 +271,230 @@ hr{
     padding-left: 113px;
 }
 
-.footer_text{
+.footer_text {
     font-size: 16px;
     line-height: 26px;
     0.05em;
     color: #FFFFFF;
 }
 
-.point_footer{
-    width: 316.98px;
+.point_footer {
+    width: 80%;
     margin-right: 32px;
 }
 
-.text_copyright{
+.text_copyright {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.4;
-    width: 309.77px;
+    width: 70%;
     padding-left: 113px;
     padding-bottom: 64px;
 }
 
-.point_child{
+.point_child {
     display: flex;
-
 }
 
-.letter{
+.letter {
     padding-right: 20px;
 }
 
-.link_footer{
+.link_footer {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width:1024px) {
+    .main_block {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .top_inform {
+        background-size: 45%;
+        background-position-x: right;
+        background-position-y: center;
+    }
+
+    .box_with_card {
+        align-items: center;
+        flex-direction: column;
+    }
+    .h3_what_we_do {
+        margin: 0 auto;
+        text-align: center;
+        width: 704px;
+    }
+    .card {
+        margin-bottom: 32px;
+    }
+
+    .text_before_footer{
+        width: 336px;
+    }
+
+    .prodject{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+}
+
+@media(max-width: 771px){
+
+    h1{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-bottom: 12px;
+    width: 100%;
+    }
+
+    .text_in_top{
+        width: 100%;
+        text-align: center;
+    }
+
+    .top_inform{
+        width: 100%;
+        margin-top: 36px;
+        background-image: none;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top_botton{
+        width: 40%;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 32px 0 32px 0;
+        align-self: center;
+        padding: 5px 5px;
+    }
+
+    .what_we_do{
+        margin-top: 32px;
+    }
+
+    .h3_what_we_do{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .box_with_card{
+        margin-top: 16px ;
+        margin-bottom: 16px ;
+    }
+    .card{
+        margin: 16px 20px;
+    }
+
+    .h3_our{
+        margin-top: 32px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .text_in_project{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #222222;
+        margin-top: 32px;
+        margin-bottom: 82px;
+        width: 100%;
+    }
+
+    .text_block_image_1 {
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        color: #FFFFFF;
+        top: 16px;
+        right: 16px;
+    }
+
+
+    .text_block_image_child{
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        top: 26px;
+        left: 16px;
+    }
+
+    .block_image_2{
+        flex-direction: column;
+    }
+
+    .block_image_child{
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
+
+    .block_image_1{
+        margin-bottom: 15px;
+    }
+
+    .before_footer{
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 41px;
+    }
+
+    .h3_before_footer{
+        margin: auto;
+    }
+
+    .text_before_footer{
+        margin: auto;
+    }
+
+    .h3_before_footer{
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        margin: 16px;
+    }
+
+    .text_before_footer {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.6;
+        margin: 16px;
+    }
+
+    .link_before_footer{
+        padding: 5px 20px;
+        font-size: 16px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+    }
+
+    .footer_list{
+        flex-direction: column;
+        margin: 32px 15px;
+        padding: 0;
+    }
 }
